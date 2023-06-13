@@ -81,17 +81,12 @@ img {
   width: 12rem;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+@media (max-width: 870px) {
+  form {
+    display: flex;
+    flex-direction: column;
   }
-
-  a:hover {
-    color: #747bff;
-  }
-
   button {
-    background-color: #f9f9f9;
+    width: 100%;
   }
 }
