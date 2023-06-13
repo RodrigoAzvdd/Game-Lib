@@ -1,4 +1,4 @@
-import style from "./style.module.css"
+import style from "../style/style.module.css"
 
 export default function LinkBtn({ href, text, target }) {
     return (
