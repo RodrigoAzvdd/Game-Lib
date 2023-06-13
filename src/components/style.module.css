@@ -1,0 +1,9 @@
+.LinkBtn {
+    text-decoration: none;
+    color: #a0a0a0;
+    font-weight: 500;
+}
+
+.LinkBtn:hover {
+    color: #bebebe;
+}

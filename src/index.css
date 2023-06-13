@@ -10,6 +10,12 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -44,11 +50,6 @@ button {
 
 button:hover {
   border-color: #646cff;
-}
-
-body {
-  place-items: start;
-  padding: 0 4rem;
 }
 
 form {
@@ -86,7 +87,9 @@ img {
     display: flex;
     flex-direction: column;
   }
+
   button {
     width: 100%;
   }
 }
+
