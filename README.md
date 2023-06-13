@@ -1,6 +1,11 @@
 # Biblioteca de Jogos
 
-Este é um projeto pessoal chamado Biblioteca de Jogos, desenvolvido com as seguintes tecnologias: React, CSS, HTML, JS e Vite.
+Este é um projeto pessoal chamado Biblioteca de Jogos, desenvolvido com as seguintes tecnologias: 
+- React
+- CSS 
+- HTML
+- JS  
+- Vite
 
 ## Descrição
 
