@@ -17,7 +17,7 @@ export default function NewGameForm({ addGame }) {
   return (
     <form onSubmit={handleSubmit}>
       <TextInput labelText={"Titulo:"} type={"text"} name={"title"} id={"title"} value={title} iptFunction={setTile} />
-      <TextInput labelText={"Capa:"} type={"text"} name={"cover"} id={"cover"} value={cover} iptFunction={setCover} />
+      <TextInput labelText={"Capa (URL):"} type={"text"} name={"cover"} id={"cover"} value={cover} iptFunction={setCover} />
       <Button text={"Adicionar a Biblioteca"} />
     </form>
   )
